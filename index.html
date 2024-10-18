@@ -24,6 +24,14 @@
 			color: transparent;
 		}
 
+		.marquee{
+			background: linear-gradient(to left, #BF2C34, #CFB53B);
+			-webkit-background-clip: text;
+			background-clip: text;
+			color: transparent;
+			font-size:22px;
+		}
+		
 	</style>
 </head>
 <body> 
@@ -70,6 +78,6 @@ Enter operand 2:
 Result = 
 <input type="text" name="result">
 </form>
-<marquee align="middle" behavior="scroll" scrolldelay="1"> Hello, Welcome to Kassidy's Calculator!</marquee>
+<div class="marquee" align="middle" behavior="scroll" scrolldelay="1"> Hello, Welcome to Kassidy's Calculator!</div>
 </body>
 </html>
